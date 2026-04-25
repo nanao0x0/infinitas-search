@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+@layer base {
+  input::-webkit-calendar-picker-indicator {
+    display: none !important;
+  }
+}
