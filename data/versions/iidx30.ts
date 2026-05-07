@@ -1996,6 +1996,57 @@ const data: VersionData = {
       },
     },
     {
+      genre: "DRUM & BASS",
+      title: "Ruler or Loser",
+      artist: "Maozon feat. Nadia",
+      bpm: {
+        min: 174,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 8,
+            options: 1,
+          },
+          another: {
+            level: 11,
+            options: 5,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 8,
+            options: 1,
+          },
+          another: {
+            level: 11,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
       genre: "UNSUNG SHADOWS",
       title: "Seraph",
       artist: "satella feat.棗いつき",
@@ -3925,6 +3976,57 @@ const data: VersionData = {
           another: {
             level: 10,
             options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "バーチャルマルチコア",
+      title: "ぞうしょく！？マイデンティティ",
+      artist: "DJ SHARPNEL feat.みらい",
+      bpm: {
+        min: 200,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 1,
+          },
+          hyper: {
+            level: 10,
+            options: 1,
+          },
+          another: {
+            level: 12,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 1,
+          },
+          hyper: {
+            level: 10,
+            options: 1,
+          },
+          another: {
+            level: 12,
+            options: 1,
           },
           leggendaria: {
             level: null,

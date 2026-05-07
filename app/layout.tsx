@@ -56,7 +56,7 @@ export default function RootLayout({
               id="description"
               className="rounded-sm bg-zinc-100 p-2 absolute -right-3 [position-anchor:--description] [position-area:block-end_inline-start] w-50"
             >
-              <div className="text-xs font-bold">最終更新日：2026/04/25</div>
+              <div className="text-xs font-bold">最終更新日：2026/05/08</div>
               <div className="text-[10px] mt-2 text-zinc-800">
                 このサイトは個人が運営する非公式サイトです。情報は最新でない場合があるため正確な情報はゲーム内をご確認ください。情報の修正やバグ報告はGitHubまでお願いします。
               </div>
