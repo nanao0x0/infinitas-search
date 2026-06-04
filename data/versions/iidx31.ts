@@ -3787,6 +3787,159 @@ const data: VersionData = {
         },
       },
     },
+    {
+      genre: "HARD DANCE",
+      title: "Monkey Business",
+      artist: "kors k",
+      bpm: {
+        min: 80,
+        max: 160,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 5,
+          },
+          hyper: {
+            level: 8,
+            options: 5,
+          },
+          another: {
+            level: 11,
+            options: 5,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 5,
+          },
+          hyper: {
+            level: 8,
+            options: 5,
+          },
+          another: {
+            level: 11,
+            options: 5,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "HARDCORE TECHNO",
+      title: "Speculation",
+      artist: 'BEMANI Sound Team "ZAQUVA"',
+      bpm: {
+        min: 190,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 1,
+          },
+          hyper: {
+            level: 9,
+            options: 17,
+          },
+          another: {
+            level: 11,
+            options: 17,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 1,
+          },
+          hyper: {
+            level: 9,
+            options: 5,
+          },
+          another: {
+            level: 11,
+            options: 5,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "和風歌謡硬核音楽",
+      title: "今宵、ロマンス横丁。",
+      artist: "まろん feat. Rikotan",
+      bpm: {
+        min: 168,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 5,
+          },
+          hyper: {
+            level: 10,
+            options: 5,
+          },
+          another: {
+            level: 12,
+            options: 5,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 5,
+          },
+          hyper: {
+            level: 10,
+            options: 5,
+          },
+          another: {
+            level: 12,
+            options: 5,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
   ],
 };
 

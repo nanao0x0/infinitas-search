@@ -5157,6 +5157,414 @@ const data: VersionData = {
         },
       },
     },
+    {
+      genre: "チッピンレイヴ",
+      title: "Bleep Beep Bop",
+      artist: "kors k",
+      bpm: {
+        min: 175,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 8,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 8,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "TRANCECORE",
+      title: "In Your EyEs",
+      artist: "kors k",
+      bpm: {
+        min: 180,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 10,
+            options: 0,
+          },
+          another: {
+            level: 12,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 10,
+            options: 0,
+          },
+          another: {
+            level: 12,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "MIRACLE DANCE POP",
+      title: "It's my Miracle",
+      artist: "Another Infinity feat. Mayumi Morinaga",
+      bpm: {
+        min: 175,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 8,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 8,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "ELECTRO POP",
+      title: "Juicy",
+      artist: "kors k Lovers DJ Yoshitaka",
+      bpm: {
+        min: 125,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 3,
+            options: 0,
+          },
+          hyper: {
+            level: 7,
+            options: 0,
+          },
+          another: {
+            level: 9,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 3,
+            options: 0,
+          },
+          hyper: {
+            level: 7,
+            options: 0,
+          },
+          another: {
+            level: 9,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "TRANCE CORE",
+      title: "Lagrangian Point Ø",
+      artist: "tūmahaB",
+      bpm: {
+        min: 212,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 10,
+            options: 0,
+          },
+          another: {
+            level: 12,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 10,
+            options: 0,
+          },
+          another: {
+            level: 12,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "BEAT ROCK",
+      title: "Rush!!",
+      artist: "kors k feat.吉河順央",
+      bpm: {
+        min: 210,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 7,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 7,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "HAPPY HARDCORE",
+      title: "Sakura Sunrise",
+      artist: "Ryu☆",
+      bpm: {
+        min: 181,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "DANCE SPEED",
+      title: "檄",
+      artist: "Ryu☆ feat.青龍",
+      bpm: {
+        min: 191,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
   ],
 };
 

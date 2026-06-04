@@ -1790,6 +1790,57 @@ const data: VersionData = {
         },
       },
     },
+    {
+      genre: "CYBER FLAMENCO",
+      title: "hora de verdad",
+      artist: "Vandalusia改",
+      bpm: {
+        min: 140,
+        max: 280,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 1,
+          },
+          hyper: {
+            level: 10,
+            options: 1,
+          },
+          another: {
+            level: 12,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 1,
+          },
+          hyper: {
+            level: 10,
+            options: 1,
+          },
+          another: {
+            level: 12,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
   ],
 };
 
