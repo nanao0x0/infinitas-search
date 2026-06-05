@@ -73,9 +73,4 @@ const allVersions: VersionData[] = [
   infinitas,
 ];
 
-export default allVersions.map((version) => {
-  return {
-    ...version,
-    songs: version.songs.sort((a, b) => a.title.localeCompare(b.title)),
-  };
-});
+export default allVersions;

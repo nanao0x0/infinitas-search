@@ -5,9 +5,37 @@ import { MUSIC_OPTIONS } from "@/data/versions/constants";
 import { DifficultyKey } from "@/data/versions/constants";
 import { SearchOption } from "@/types/searchOption";
 
+const getPriority = (str: string) => {
+  const firstChar = str.charAt(0);
+
+  if (/[a-zA-Z]/.test(firstChar)) return 1;
+
+  if (/[0-9０-９]/.test(firstChar)) return 2;
+
+  if (/[\u3040-\u30ff\u4e00-\u9faf]/.test(firstChar)) return 3;
+
+  return 4;
+};
+
 export const useSearchResult = (searchOption: SearchOption) => {
+  const sortedAllVersions = allVersions.map((version) => {
+    return {
+      ...version,
+      songs: version.songs.toSorted((a, b) => {
+        const priorityA = getPriority(a.title);
+        const priorityB = getPriority(b.title);
+
+        if (priorityA !== priorityB) {
+          return priorityA - priorityB;
+        }
+
+        return a.title.localeCompare(b.title, "ja");
+      }),
+    };
+  });
+
   const searchResult = useMemo(() => {
-    return allVersions
+    return sortedAllVersions
       .filter(
         (version) =>
           searchOption.versions.length === 0 ||
