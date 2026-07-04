@@ -22,13 +22,14 @@ const notoSansJp = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://infinitas-search.pages.dev"),
+  metadataBase: new URL("https://infinitas-search.nanao.workers.dev"),
   title: "beatmania IIDX INFINITAS 楽曲検索",
   description: "「beatmania IIDX INFINITAS」の楽曲検索システム（非公式）",
   openGraph: {
     title: "beatmania IIDX INFINITAS 楽曲検索",
     description: "「beatmania IIDX INFINITAS」の楽曲検索システム（非公式）",
-    url: "https://infinitas-search.pages.dev",
+    url: "https://infinitas-search.nanao.workers.dev",
+    images: "https://infinitas-search.nanao.workers.dev/images/ogp.png",
     siteName: "beatmania IIDX INFINITAS 楽曲検索",
     locale: "ja_JP",
     type: "website",
@@ -37,6 +38,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "beatmania IIDX INFINITAS 楽曲検索",
     description: "「beatmania IIDX INFINITAS」の楽曲検索システム（非公式）",
+    images: "https://infinitas-search.nanao.workers.dev/images/ogp.png",
   },
 };
 
