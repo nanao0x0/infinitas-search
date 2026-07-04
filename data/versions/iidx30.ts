@@ -4443,6 +4443,108 @@ const data: VersionData = {
         },
       },
     },
+    {
+      genre: "FORTUNE OVERTURE",
+      title: "[ ]DENTITY",
+      artist: 'BEMANI Sound Team "HuΣeR"',
+      bpm: {
+        min: 200,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 5,
+          },
+          hyper: {
+            level: 10,
+            options: 5,
+          },
+          another: {
+            level: 12,
+            options: 4,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 5,
+          },
+          hyper: {
+            level: 10,
+            options: 5,
+          },
+          another: {
+            level: 12,
+            options: 5,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "ANIMTRIBE POP",
+      title: "惑星☆ロリポップ",
+      artist: "SOUND HOLIC feat. Nana Takahashi",
+      bpm: {
+        min: 180,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 8,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 7,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
   ],
 };
 
