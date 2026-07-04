@@ -22,8 +22,22 @@ const notoSansJp = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://infinitas-search.pages.dev"),
   title: "beatmania IIDX INFINITAS 楽曲検索",
   description: "「beatmania IIDX INFINITAS」の楽曲検索システム（非公式）",
+  openGraph: {
+    title: "beatmania IIDX INFINITAS 楽曲検索",
+    description: "「beatmania IIDX INFINITAS」の楽曲検索システム（非公式）",
+    url: "https://infinitas-search.pages.dev",
+    siteName: "beatmania IIDX INFINITAS 楽曲検索",
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "beatmania IIDX INFINITAS 楽曲検索",
+    description: "「beatmania IIDX INFINITAS」の楽曲検索システム（非公式）",
+  },
 };
 
 export default function RootLayout({
