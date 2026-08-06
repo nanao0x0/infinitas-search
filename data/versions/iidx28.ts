@@ -4699,6 +4699,108 @@ const data: VersionData = {
         },
       },
     },
+    {
+      genre: "DRUMSTEP / DnB",
+      title: "Level 3",
+      artist: "Yamato",
+      bpm: {
+        min: 175,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 4,
+          },
+          hyper: {
+            level: 10,
+            options: 4,
+          },
+          another: {
+            level: 12,
+            options: 4,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 4,
+          },
+          hyper: {
+            level: 10,
+            options: 4,
+          },
+          another: {
+            level: 12,
+            options: 4,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "HYBRID BASSLINE",
+      title: "When I Met U",
+      artist: "LADY'S ONLY",
+      bpm: {
+        min: 145,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 7,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 7,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
   ],
 };
 

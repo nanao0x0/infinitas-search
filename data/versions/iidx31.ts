@@ -3940,6 +3940,108 @@ const data: VersionData = {
         },
       },
     },
+    {
+      genre: "HARD HOUSE",
+      title: "This Is Club Musik feat. 大久保紅葉",
+      artist: "REMO-CON",
+      bpm: {
+        min: 165,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "VOLTENIZED CORE",
+      title: "Xb10r",
+      artist: "隣の庭は青い(庭師+Aoi)",
+      bpm: {
+        min: 200,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 1,
+          },
+          hyper: {
+            level: 10,
+            options: 17,
+          },
+          another: {
+            level: 12,
+            options: 17,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 1,
+          },
+          hyper: {
+            level: 10,
+            options: 17,
+          },
+          another: {
+            level: 12,
+            options: 17,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
   ],
 };
 

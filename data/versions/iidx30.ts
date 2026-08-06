@@ -4545,6 +4545,57 @@ const data: VersionData = {
         },
       },
     },
+    {
+      genre: "HARDCORE TECHNO",
+      title: "MAX 360",
+      artist: 'BEMANI Sound Team "[𝑥]"',
+      bpm: {
+        min: 15,
+        max: 360,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 10,
+            options: 0,
+          },
+          another: {
+            level: 12,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 10,
+            options: 0,
+          },
+          another: {
+            level: 12,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
   ],
 };
 
