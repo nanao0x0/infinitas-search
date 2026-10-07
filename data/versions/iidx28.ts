@@ -3220,6 +3220,57 @@ const data: VersionData = {
       },
     },
     {
+      genre: "80s EUROBEAT",
+      title: "So Punky",
+      artist: "Y&Co. feat. 大山愛未",
+      bpm: {
+        min: 140,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 8,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 8,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
       genre: "MOE CORE",
       title: "Sugarplum",
       artist: "KOTONOHOUSE",
@@ -3568,6 +3619,57 @@ const data: VersionData = {
           another: {
             level: 12,
             options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "NU-NRG",
+      title: "Viridian",
+      artist: "REMO-CON",
+      bpm: {
+        min: 161,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 4,
+          },
+          hyper: {
+            level: 10,
+            options: 5,
+          },
+          another: {
+            level: 12,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 4,
+          },
+          hyper: {
+            level: 10,
+            options: 5,
+          },
+          another: {
+            level: 12,
+            options: 0,
           },
           leggendaria: {
             level: null,

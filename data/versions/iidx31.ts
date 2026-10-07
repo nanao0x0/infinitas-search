@@ -108,6 +108,57 @@ const data: VersionData = {
       },
     },
     {
+      genre: "LOUD TRAP",
+      title: "Akatsuki",
+      artist: "PRIDASK",
+      bpm: {
+        min: 180,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 7,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 7,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
       genre: "TRANCE",
       title: "Amethyst",
       artist: "BlackY",
@@ -1994,6 +2045,57 @@ const data: VersionData = {
           another: {
             level: 12,
             options: 10,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "HARDCORE",
+      title: "See You Again",
+      artist: "kors k & Numb'n'dub",
+      bpm: {
+        min: 175,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
           },
           leggendaria: {
             level: null,
