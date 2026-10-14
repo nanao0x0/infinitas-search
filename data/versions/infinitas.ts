@@ -261,6 +261,57 @@ const data: VersionData = {
       },
     },
     {
+      genre: "JUKE/FOOTWORK",
+      title: "Bang Pad(Werk Mix)",
+      artist: "Oyubi",
+      bpm: {
+        min: 160,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 6,
+            options: 0,
+          },
+          another: {
+            level: 9,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 6,
+            options: 0,
+          },
+          another: {
+            level: 9,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
       genre: "ELEGANT MODERN ROCK",
       title: "Black Apple",
       artist: 'BEMANI Sound Team "HuΣeR"',
@@ -720,6 +771,108 @@ const data: VersionData = {
       },
     },
     {
+      genre: "UK HARDCORE",
+      title: "Come to Life",
+      artist: "ARM(IOSYS) feat.Nicole Curry",
+      bpm: {
+        min: 180,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 1,
+          },
+          hyper: {
+            level: 8,
+            options: 1,
+          },
+          another: {
+            level: 11,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 1,
+          },
+          hyper: {
+            level: 8,
+            options: 1,
+          },
+          another: {
+            level: 11,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "TOKYO STYLE SPEEDCORE",
+      title: "Come To m1dy",
+      artist: "m1dy",
+      bpm: {
+        min: 225,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 5,
+          },
+          hyper: {
+            level: 10,
+            options: 5,
+          },
+          another: {
+            level: 12,
+            options: 5,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 5,
+          },
+          hyper: {
+            level: 10,
+            options: 5,
+          },
+          another: {
+            level: 12,
+            options: 5,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
       genre: "HARD ELECTRIC POP",
       title: "concon",
       artist: "S-C-U",
@@ -924,6 +1077,57 @@ const data: VersionData = {
       },
     },
     {
+      genre: "丼ベース",
+      title: "Deep tenDon Reflex",
+      artist: 'BEMANI Sound Team "Coyaan"',
+      bpm: {
+        min: 180,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 10,
+            options: 0,
+          },
+          another: {
+            level: 12,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 10,
+            options: 0,
+          },
+          another: {
+            level: 12,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
       genre: "J-POP",
       title: "Destiny Lovers",
       artist: "くにたけみゆき",
@@ -966,6 +1170,57 @@ const data: VersionData = {
           another: {
             level: 10,
             options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "BUBBLEGUM DANCE",
+      title: "Din Don Dan",
+      artist: "Ryu☆ feat.Mayumi Morinaga",
+      bpm: {
+        min: 140,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 7,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 7,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
           },
           leggendaria: {
             level: null,
@@ -1068,6 +1323,57 @@ const data: VersionData = {
           another: {
             level: 11,
             options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "HYBRID RAVE",
+      title: "Euphoric Fragmentation",
+      artist: "DC Mizey",
+      bpm: {
+        min: 180,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 1,
+          },
+          hyper: {
+            level: 10,
+            options: 1,
+          },
+          another: {
+            level: 12,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 7,
+            options: 1,
+          },
+          hyper: {
+            level: 10,
+            options: 0,
+          },
+          another: {
+            level: 12,
+            options: 0,
           },
           leggendaria: {
             level: null,
@@ -1272,6 +1578,57 @@ const data: VersionData = {
           another: {
             level: 10,
             options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "ABSTRACT NEUROFUNK",
+      title: "Glitch Angel",
+      artist: "lapix",
+      bpm: {
+        min: 165,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 5,
+          },
+          hyper: {
+            level: 9,
+            options: 5,
+          },
+          another: {
+            level: 11,
+            options: 5,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 5,
+          },
+          hyper: {
+            level: 9,
+            options: 5,
+          },
+          another: {
+            level: 11,
+            options: 5,
           },
           leggendaria: {
             level: null,
@@ -1893,6 +2250,57 @@ const data: VersionData = {
       },
     },
     {
+      genre: "JUNGLE TERROR",
+      title: "Jungle Dance",
+      artist: "NATSUMI",
+      bpm: {
+        min: 155,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 4,
+            options: 1,
+          },
+          hyper: {
+            level: 7,
+            options: 1,
+          },
+          another: {
+            level: 10,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 4,
+            options: 1,
+          },
+          hyper: {
+            level: 7,
+            options: 1,
+          },
+          another: {
+            level: 10,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
       genre: "ハピコアMAX",
       title: "LIMIT TOPPA REVOLUTION",
       artist: 'BEMANI Sound Team "PON" feat.NU-KO',
@@ -2087,6 +2495,57 @@ const data: VersionData = {
           },
           another: {
             level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "HARDCORE",
+      title: "NEPHILIM DELTA",
+      artist: "L.E.D.-G",
+      bpm: {
+        min: 220,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 10,
+            options: 0,
+          },
+          another: {
+            level: 12,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 11,
+            options: 0,
+          },
+          another: {
+            level: 12,
             options: 0,
           },
           leggendaria: {
@@ -2556,6 +3015,57 @@ const data: VersionData = {
       },
     },
     {
+      genre: "HITECH",
+      title: "Sector",
+      artist: "RYOQUCHA",
+      bpm: {
+        min: 160,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 4,
+          },
+          another: {
+            level: 11,
+            options: 4,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
       genre: "TRANCE",
       title: "sink into the dream",
       artist: "uma",
@@ -2862,6 +3372,57 @@ const data: VersionData = {
       },
     },
     {
+      genre: "NU DISCO HOUSE",
+      title: "The 88's Instigation",
+      artist: "MYUKKE.",
+      bpm: {
+        min: 135,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
       genre: "HARDSTYLE",
       title: "THE ANCIENT KING IS BACK",
       artist: 'BEMANI Sound Team "L.E.D.-G"',
@@ -2903,6 +3464,57 @@ const data: VersionData = {
           },
           another: {
             level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "CELTIC ELECTRO TECH",
+      title: "The Ashes of Boreas",
+      artist: "Se-U-Ra",
+      bpm: {
+        min: 180,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 4,
+            options: 0,
+          },
+          hyper: {
+            level: 8,
+            options: 0,
+          },
+          another: {
+            level: 10,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 0,
+          },
+          hyper: {
+            level: 8,
+            options: 0,
+          },
+          another: {
+            level: 10,
             options: 0,
           },
           leggendaria: {
