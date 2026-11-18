@@ -4144,6 +4144,108 @@ const data: VersionData = {
         },
       },
     },
+    {
+      genre: "RAWSTYLE",
+      title: "T.R.O.L.L.",
+      artist: "Yuta Imai",
+      bpm: {
+        min: 100,
+        max: 160,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 11,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 6,
+            options: 0,
+          },
+          hyper: {
+            level: 9,
+            options: 0,
+          },
+          another: {
+            level: 12,
+            options: 0,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
+    {
+      genre: "FRENCHCORE",
+      title: "The Onlyonez",
+      artist: "RoughSketch",
+      bpm: {
+        min: 220,
+        max: null,
+      },
+      difficulty: {
+        sp: {
+          beginner: {
+            level: null,
+            options: 0,
+          },
+          normal: {
+            level: 5,
+            options: 1,
+          },
+          hyper: {
+            level: 9,
+            options: 1,
+          },
+          another: {
+            level: 12,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+        dp: {
+          normal: {
+            level: 5,
+            options: 1,
+          },
+          hyper: {
+            level: 9,
+            options: 1,
+          },
+          another: {
+            level: 12,
+            options: 1,
+          },
+          leggendaria: {
+            level: null,
+            options: 0,
+          },
+        },
+      },
+    },
   ],
 };
 
