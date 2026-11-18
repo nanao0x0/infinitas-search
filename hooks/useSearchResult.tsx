@@ -17,8 +17,7 @@ const getPriority = (str: string) => {
   return 4;
 };
 
-export const useSearchResult = (searchOption: SearchOption) => {
-  const sortedAllVersions = allVersions.map((version) => {
+const sortedAllVersions = allVersions.map((version) => {
     return {
       ...version,
       songs: version.songs.toSorted((a, b) => {
@@ -34,6 +33,7 @@ export const useSearchResult = (searchOption: SearchOption) => {
     };
   });
 
+export const useSearchResult = (searchOption: SearchOption) => {
   const searchResult = useMemo(() => {
     return sortedAllVersions
       .filter(

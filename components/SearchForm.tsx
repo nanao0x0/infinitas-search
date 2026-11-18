@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useMemo, useRef, useState } from "react";
 import { debounce } from "lodash";
 import allVersions from "@/data/versions/all";
 import { SlidingTab } from "@/components/SlidingTab";
@@ -11,7 +11,6 @@ import {
   LEVELS,
 } from "@/data/versions/constants";
 import { FilterFlag } from "@/types/searchOption";
-import { Bpm } from "@/types/versions";
 
 export interface ScoreOption {
   label: string;
@@ -30,6 +29,12 @@ const SearchFormFilter = () => {
   const [localBpm, setLocalBpm] = useState<{ min: number; max: number }>(
     searchOption.bpm,
   );
+  const [previousBpm, setPreviousBpm] = useState(searchOption.bpm);
+
+  if (previousBpm !== searchOption.bpm) {
+    setPreviousBpm(searchOption.bpm);
+    setLocalBpm(searchOption.bpm);
+  }
 
   const debouncedBpmUpdate = useMemo(
     () =>
@@ -111,10 +116,6 @@ const SearchFormFilter = () => {
       });
     }
   };
-
-  useEffect(() => {
-    setLocalBpm(searchOption.bpm);
-  }, [searchOption.bpm]);
 
   return (
     <details
@@ -358,6 +359,12 @@ export const SearchForm = () => {
   const [localKeyword, setLocalKeyword] = useState<string>(
     searchOption.keyword,
   );
+  const [previousKeyword, setPreviousKeyword] = useState(searchOption.keyword);
+
+  if (previousKeyword !== searchOption.keyword) {
+    setPreviousKeyword(searchOption.keyword);
+    setLocalKeyword(searchOption.keyword);
+  }
 
   const debouncedUpdate = useMemo(
     () =>
@@ -376,10 +383,6 @@ export const SearchForm = () => {
     setLocalKeyword(nextValue);
     debouncedUpdate(nextValue);
   };
-
-  useEffect(() => {
-    setLocalKeyword(searchOption.keyword);
-  }, [searchOption.keyword]);
 
   return (
     <div className="flex flex-col gap-y-4 md:gap-y-6 mb-15 md:mb-15">

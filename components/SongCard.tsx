@@ -20,7 +20,7 @@ const OPTION_FLAGS: OptionFlag[] = (
   label: key,
 }));
 
-export const SongCard = memo(
+const SongCard = memo(
   ({ song }: { song: Song }) => {
     const {
       searchOption: { playStyle },
@@ -119,3 +119,7 @@ export const SongCard = memo(
   },
   (prev, next) => prev.song.title === next.song.title,
 );
+
+SongCard.displayName = "SongCard";
+
+export { SongCard };
